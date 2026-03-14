@@ -1,0 +1,65 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "list": [
+            {
+                "id": 1,
+                "deptCode": "DEPT001",
+                "deptName": "总公司",
+                "parentId": null,
+                "status": "normal",
+                "sort": 1
+            },
+            {
+                "id": 2,
+                "deptCode": "DEPT002",
+                "deptName": "技术部",
+                "parentId": 1,
+                "status": "normal",
+                "sort": 1
+            },
+            {
+                "id": 3,
+                "deptCode": "DEPT003",
+                "deptName": "市场部",
+                "parentId": 1,
+                "status": "normal",
+                "sort": 2
+            },
+            {
+                "id": 4,
+                "deptCode": "DEPT004",
+                "deptName": "人力资源部",
+                "parentId": 1,
+                "status": "normal",
+                "sort": 3
+            },
+            {
+                "id": 5,
+                "deptCode": "DEPT005",
+                "deptName": "前端开发组",
+                "parentId": 2,
+                "status": "normal",
+                "sort": 1
+            },
+            {
+                "id": 6,
+                "deptCode": "DEPT006",
+                "deptName": "后端开发组",
+                "parentId": 2,
+                "status": "normal",
+                "sort": 2
+            },
+            {
+                "id": 7,
+                "deptCode": "DEPT007",
+                "deptName": "销售组",
+                "parentId": 3,
+                "status": "disabled",
+                "sort": 1
+            }
+        ],
+        "pageTotal": 7
+    }
+}
