@@ -51,6 +51,15 @@ const routes: RouteRecordRaw[] = [
                 component: () => import(/* webpackChunkName: "system-menu" */ '../views/system/menu.vue'),
             },
             {
+                path: '/system-department',
+                name: 'system-department',
+                meta: {
+                    title: '部门管理',
+                    permiss: '14',
+                },
+                component: () => import(/* webpackChunkName: "system-department" */ '../views/system/department.vue'),
+            },
+            {
                 path: '/table',
                 name: 'basetable',
                 meta: {

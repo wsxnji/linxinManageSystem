@@ -1,0 +1,59 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "deptName": "总裁办",
+            "deptCode": "DEPT001",
+            "status": 1,
+            "sort": 1,
+            "parentId": 0,
+            "createTime": "2024-01-01"
+        },
+        {
+            "id": 2,
+            "deptName": "技术部",
+            "deptCode": "DEPT002",
+            "status": 1,
+            "sort": 2,
+            "parentId": 1,
+            "createTime": "2024-01-02"
+        },
+        {
+            "id": 3,
+            "deptName": "销售部",
+            "deptCode": "DEPT003",
+            "status": 1,
+            "sort": 3,
+            "parentId": 1,
+            "createTime": "2024-01-03"
+        },
+        {
+            "id": 4,
+            "deptName": "财务部",
+            "deptCode": "DEPT004",
+            "status": 0,
+            "sort": 4,
+            "parentId": 1,
+            "createTime": "2024-01-04"
+        },
+        {
+            "id": 5,
+            "deptName": "研发组",
+            "deptCode": "DEPT005",
+            "status": 1,
+            "sort": 1,
+            "parentId": 2,
+            "createTime": "2024-01-05"
+        },
+        {
+            "id": 6,
+            "deptName": "测试组",
+            "deptCode": "DEPT006",
+            "status": 1,
+            "sort": 2,
+            "parentId": 2,
+            "createTime": "2024-01-06"
+        }
+    ],
+    "pageTotal": 6
+}
