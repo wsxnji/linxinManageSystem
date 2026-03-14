@@ -1,0 +1,75 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "name": "总公司",
+            "code": "HQ",
+            "parentId": null,
+            "status": 1,
+            "sort": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "name": "研发部",
+                    "code": "RD",
+                    "parentId": 1,
+                    "status": 1,
+                    "sort": 1,
+                    "children": [
+                        {
+                            "id": 5,
+                            "name": "前端研发组",
+                            "code": "RD-FE",
+                            "parentId": 2,
+                            "status": 1,
+                            "sort": 1
+                        },
+                        {
+                            "id": 6,
+                            "name": "后端研发组",
+                            "code": "RD-BE",
+                            "parentId": 2,
+                            "status": 1,
+                            "sort": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "市场部",
+                    "code": "MKT",
+                    "parentId": 1,
+                    "status": 1,
+                    "sort": 2,
+                    "children": [
+                        {
+                            "id": 7,
+                            "name": "市场推广组",
+                            "code": "MKT-PROMO",
+                            "parentId": 3,
+                            "status": 1,
+                            "sort": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "财务部",
+                    "code": "FIN",
+                    "parentId": 1,
+                    "status": 0,
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "分公司A",
+            "code": "BRANCH-A",
+            "parentId": null,
+            "status": 1,
+            "sort": 2
+        }
+    ],
+    "pageTotal": 8
+}

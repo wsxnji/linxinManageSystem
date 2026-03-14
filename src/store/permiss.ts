@@ -13,6 +13,7 @@ export const usePermissStore = defineStore('permiss', {
                 '11',
                 '12',
                 '13',
+                '14',
                 '2',
                 '21',
                 '22',
